@@ -4,7 +4,7 @@
 ## Usage
 Simply include the Highlight.js library in your webpage or Node app, then load this module.
 
-```
+```html
 <script type="text/javascript" src="/path/to/highlight.min.js"></script>
 <script type="text/javascript" charset="UTF-8"
   src="/path/to/highlightjs-jolie/dist/jolie.min.js"></script>
