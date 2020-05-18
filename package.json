@@ -1,0 +1,27 @@
+{
+  "name": "highlightjs-jolie",
+  "version": "1.0.0",
+  "description": "Jolie syntax highlighting plugin for highlight.js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiroV/highlightjs-jolie.git"
+  },
+  "keywords": [
+    "jolie",
+    "highlightjs",
+    "highlight"
+  ],
+  "author": "Brian Alberg <brian@alberg.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiroV/highlightjs-jolie/issues"
+  },
+  "homepage": "https://github.com/xiroV/highlightjs-jolie#readme"
+}
