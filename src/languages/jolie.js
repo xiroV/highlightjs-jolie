@@ -6,7 +6,7 @@ Website: https://www.jolie-lang.org
 Category: common
 */
 
-export default function(hljs) {
+module.exports = function(hljs) {
   var KEYWORDS = {
     keyword:
       'if else while for foreach provide until in forward scope ' +
@@ -65,7 +65,7 @@ export default function(hljs) {
     name: 'Jolie',
     aliases: ['ol', 'iol'],
     keywords: KEYWORDS,
-    illegal: /(<\/|->|\?)|=>/,
+    illegal: /(<\/|->|\?)=>/,
     contains: [
       NUMBER,
       STRING,
