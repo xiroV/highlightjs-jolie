@@ -2,6 +2,8 @@
 [Jolie language](https://jolie-lang.org) syntax highlighting plugin for [highlight.js](https://github.com/highlightjs/highlight.js).
 
 ## Usage
+
+### Simple usage
 Simply include the Highlight.js library in your webpage or Node app, then load this module.
 
 ```html
@@ -11,6 +13,17 @@ Simply include the Highlight.js library in your webpage or Node app, then load t
 <script type="text/javascript">
   hljs.initHighlightingOnLoad();
 </script>
+```
+
+### With Node
+If you're using Node, simply require the language module, then register it with highlight.js.
+
+```javascript
+var hljs = require('highlightjs');
+var hljsJolie = require('highlightjs-jolie');
+
+hljs.registerLanguage("jolie", hljsJolie);
+hljs.initHighlightingOnLoad();
 ```
 
 ## License
