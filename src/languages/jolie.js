@@ -9,7 +9,7 @@ Category: common
 module.exports = function(hljs) {
   var KEYWORDS = {
     keyword:
-      'if else while for foreach provide until in forward scope ' +
+      'if else while for foreach provide until in forward scope with' +
       'interface execution constants main init cH instanceof comp concurrent single sequential cset is_defined embedded extender courier forward install undef include synchronized throws throw ' +
       'inputPort outputPort type define service',
     type: 'string int long bool double void raw any',

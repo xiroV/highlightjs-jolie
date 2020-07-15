@@ -27,7 +27,7 @@ $ cd ..
 To generate the dist file:
 
 ```
-$ node  --stack-size=65500  ./tools/build.js -t cdn
+$ node --stack-size=65500  ./tools/build.js -t cdn
 ```
 
 The generated file will be available in both `build/languages/jolie.min.js` and `extra/highlightjs-jolie/dist/jolie.min.js`.
