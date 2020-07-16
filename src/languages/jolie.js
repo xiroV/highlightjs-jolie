@@ -50,7 +50,7 @@ module.exports = function(hljs) {
   var COLON_NAME = {
     className: 'meta',
     begin: '\\b(location|Location|protocol|Protocol|interfaces|Interfaces|aggregates|Aggregates|redirects|Redirects|Jolie|JavaScript|Java|OneWay|RequestResponse)\\b',
-    end: ':',
+    end: '(:|\n| )',
     excludeEnd: true,
     relevance: 10,
   };
