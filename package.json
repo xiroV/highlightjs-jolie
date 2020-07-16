@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-jolie",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Jolie syntax highlighting plugin for highlight.js",
   "main": "src/languages/jolie.js",
   "directories": {
