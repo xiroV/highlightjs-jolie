@@ -49,10 +49,10 @@ module.exports = function(hljs) {
   };
   var COLON_NAME = {
     className: 'meta',
-    begin: '\\b(location|Location|protocol|Protocol|interfaces|Interfaces|aggregates|Aggregates|redirects|Redirects|Jolie|JavaScript|Java|OneWay|RequestResponse)\\b',
-    end: '(:|\n| )',
+    begin: '\\s(location|Location|protocol|Protocol|interfaces|Interfaces|interface|Interface|aggregates|Aggregates|redirects|Redirects|Jolie|JavaScript|Java|OneWay|RequestResponse)\\b',
+    end: '(:|\\s)',
     excludeEnd: true,
-    relevance: 10,
+    relevance: 10
   };
 
   var SYMBOLS = {
